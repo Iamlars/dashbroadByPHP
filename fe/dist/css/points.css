@@ -1,0 +1,14 @@
+/* 积分日志 */
+.points-tip{
+  margin-top: 30px;
+  height: 60px;
+}
+.points-tip .label{
+  color: #373737;
+  font-size: 20px;
+}
+.points-tip strong{
+  color: #ef5644;
+  font-size: 26px;
+  font-weight: normal;
+}

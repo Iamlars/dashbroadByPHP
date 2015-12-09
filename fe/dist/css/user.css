@@ -1,0 +1,25 @@
+.popup-row-half{
+  width: 45%;
+}
+.popup-row-half input,
+.popup-row-half select{
+  width: 335px;;
+}
+
+.popup-card .title {
+  height: 40px;
+}
+.popup-body{
+  margin-right: 15px;
+}
+.uploader{
+  margin-left: 0;
+}
+.big-popup{
+  width: 800px;
+}
+.popup-card .button-large{
+  display: block;
+  margin: auto;
+  max-width: 380px;
+}

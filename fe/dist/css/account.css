@@ -1,0 +1,65 @@
+/* 账户管理页面所用css*/
+
+.account-main{
+}
+.account-main table{
+  margin: 30px auto;
+  width: 80%;
+}
+.link:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+.link-active{
+  color: #44a1ef;
+}
+.account-main .main-body{
+  text-align: center;
+}
+.empty-tips{
+  text-align: center;
+  margin-top: 165px;
+  font-family:黑体;
+}
+.empty-tips p{
+  font-size: 20px;
+  color: #494949;
+  margin-bottom: 50px;
+}
+.empty-tips em{
+  color: #ef5644;
+  font-style: normal;
+}
+
+/*弹出层样式*/
+.popup-account-logo{
+  min-height: 50px;
+}
+.popup-request{
+  color: #3c3c3c;
+  font-size: 18px;
+}
+.popup-request .label{
+  margin-right: 0;
+}
+.popup-request em{
+  font-style: normal;
+}
+.request-body{
+  padding-left: 40px;
+  padding-bottom: 30px;
+  text-align: left;
+}
+.request-title{
+  font-size: 26px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+.request-account{
+  font-size: 16px;
+}
+.request-account .popup-account-logo{
+  display: inline-block;
+  vertical-align: middle;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>后台管理-登录</title>
+    <link rel="stylesheet" href="../dist/css/login.css" charset="utf-8">
+  </head>
+  <body>
+    <div id="header">
+      <div class="dash-title">
+        <img src="../dist/image/icons/logo.png" alt="logo">
+        <h1>云景移动支付平台</h1>
+      </div>
+      <div class="dash-name">后台管理系统</div>
+    </div>
+    <div id="main-top"></div>
+    <div id="main-page" class="clearfix">
+      <div class="placehold fl">
+        <img src="../dist/image/login/login-placehold.jpg" alt="placehold" width="630" height="430">
+      </div>
+      <div class="login-box fr">
+        <form action="../test.php" method="post" id="J_form">
+          <h2>用户登录</h2>
+          <div class="login-row">
+            <input type="text" placeholder="用户名" data-tip="请填写用户名">
+          </div>
+          <div class="login-row">
+            <input type="password" placeholder="密码" data-tip="请填写密码">
+          </div>
+          <label class="login-row" for="hold-sign">
+            <input type="checkbox" id="hold-sign">
+            <i></i>
+            <span>记住我</span>
+          </label>
+          <div class="login-row">
+            <button type="submit">登录</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div id="footer">
+      <a href="">成都三泰控股集团有限公司</a>
+      版权所有
+      <a href="">蜀ICP备11014137号</a>
+    </div>
+
+    <!-- dialog组件 -->
+    <div class="my-dialog-wrap">
+      <div class="my-dialog-mask"></div>
+      <div class="my-dialog animated">
+        <div class="my-dialog-close">×</div>
+        <div class="my-dialog-header">
+           提示
+        </div>
+        <div class="my-dialog-body">
+          我是弹窗的内容
+        </div>
+        <div class="my-dialog-footer">
+          <span type="cancel" class="my-dialog-btn">取消</span>
+          <span type="ok" class="my-dialog-btn">确定</span>
+        </div>
+      </div>
+    </div>
+
+  <script src="../lib/jquery.js"></script>
+  <!--[if lte IE 9]>
+  <script src="../lib/placeholder.js"></script>
+  <![endif]-->
+  <script src="../dist/js/common-tools.js"></script>
+  <script src="../dist/js/login/login.js"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+/* 资料管理 页面css*/
+
+.data-main{
+
+}
+.main-title{width: 200px;}
+.button-group{
+  float: left;
+  line-height: 70px;
+}
+.button-group .button{
+  margin-right: 30px;
+}
+.tip-strong{
+  margin: 45px 0;
+}
+.main-body{
+  font-family:黑体;
+  font-size: 16px;
+  color: #595959;
+  overflow: hidden;
+  position: relative;
+}
+.data-base{
+  position: relative;
+  margin-top: 40px;
+  zoom:1;
+}
+.data-base .data-row{
+  height: 40px;
+}
+.data-form td{
+  padding: 15px 0;
+}
+.data-form{
+  padding: 30px 0;
+  border-top: 1px dashed #c5c5c5;
+}
+.data-form .label{
+  width: 100px;
+  line-height: 43px;
+}
+.textarea-label{
+  vertical-align: top;
+}
+.data-form input{
+  width: 90%;
+}
+.data-form textarea{
+  width: 93%;
+}
+.data-form select{
+  width: 25%;
+}
+.data-form .form-row{
+  float: left;
+  width: 50%;
+  margin-bottom: 30px;
+}
+.button-large{
+  display: block;
+  margin: auto;
+}
+/*修改密码*/
+.data-form.update-password{
+  width: 490px;
+  margin: auto;
+  border: 0;
+}
+.data-form.update-password .button-large{
+  margin: 0;
+}
