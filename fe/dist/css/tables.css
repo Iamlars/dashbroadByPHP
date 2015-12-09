@@ -104,3 +104,25 @@
    width: 380px;
    margin: 20px auto;
  }
+.monthly-view-table{
+  font-family:黑体;
+}
+.monthly-view-table h2,
+.monthly-view-table h3{
+display: inline-block;
+font-weight: normal;
+color: #393939;
+font-size: 26px;
+}
+.monthly-view-table h3{
+  font-size:22px;
+}
+.monthly-view-table span{
+  font-size: 16px;
+  color: #888;
+}
+.monthly-view-table em{
+  color: #ef5644;
+  font-size: 20px;
+  font-style: normal;
+}

@@ -55,6 +55,18 @@ table th{
 .views{
   min-width: 1200px;
 }
+#full{
+  position: absolute;
+  width: 50px;
+  top:0;
+  left:0;
+  outline: 1px solid #ccc;
+}
+body.full #nav{left: -250px;}
+body.full #main-page{margin-left: 0;}
+body.full #header{display: none;}
+body.full #main{top:0}
+body.full #footer{display: none;}
 /*=====================================button=================================*/
 .button {
     display: inline-block;
@@ -196,7 +208,7 @@ textarea{
   overflow: hidden;
 }
 .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{
-  background: #333;
+  background: #333!important;
 }
 .scroll-body .mCSB_draggerRail{
   background-color: #fff;

@@ -61,7 +61,7 @@
                   echo "月</td>";
                   echo "<td>2015/01/01-----2015/01/31</td>";
                   echo "<td>一月账簿</td>";
-                  echo "<td><a class='link link-view'>[查看]</a></td>";
+                  echo "<td><a class='link link-view' href='monthly-views.php'>[查看]</a></td>";
                   echo "</tr>";
                   }
                ?>
@@ -132,7 +132,6 @@
 <script src="../lib/dataTables/datatables.min.js"></script>
 <script src="../lib/select2/select.js"></script>
 <script src="../lib/dateTimePicker/datepicker.js"></script>
-<script src="../dist/js/merchant/daily.js"></script>
 <script src="../dist/js/merchant/monthly.js"></script>
 </body>
 </html>

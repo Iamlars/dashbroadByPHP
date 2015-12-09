@@ -5,7 +5,7 @@ $(function(){
     $('.data-table').DataTable( {
       "scrollY": $(window).height()-300,
       filter:false,
-      sort:true,
+      sort:false,
       info:false,
       paging: false
     });

@@ -32,11 +32,11 @@
               <div class="data-uploader fr">
                 <div class="uploader" use_for="250">
                   <div class="def-image"></div>
-                  <p id="logoPicker">[<em>上传LOGO</em>]</p>
+                  <p id="logoPicker" data-Filedata="logo" data-use_for="333" >[<em>上传LOGO</em>]</p>
                 </div>
                 <div class="uploader">
                   <div class="def-image"></div>
-                  <p id="passportPicker">[<em>上传营业执照</em>]</p>
+                  <p id="passportPicker" data-Filedata="yingyezhizhao" data-use_for="333">[<em>上传营业执照</em>]</p>
                 </div>
               </div>
             </div>
