@@ -57,7 +57,7 @@
                     <td class="label">所属区域：</td>
                     <td colspan="3" class="select-group">
                       <select class="pro" name="" data-tip="省份不能为空">
-                        <option value="24"></option>
+                        <option value="26"></option>
                       </select>  
                       <select class="city" name="" data-tip="城市不能为空"><option value="322"></option></select>  
                       <select class="area" name="" data-tip="地区不能为空"><option value="2725"></option></select>
