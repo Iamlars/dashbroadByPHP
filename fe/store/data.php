@@ -34,7 +34,7 @@
                   <div class="def-image"></div>
                   <p id="logoPicker" data-Filedata="logo" data-use_for="333" >[<em>上传LOGO</em>]</p>
                 </div>
-                <div class="uploader">
+                <div class="uploader hidden">
                   <div class="def-image"></div>
                   <p id="passportPicker" data-Filedata="yingyezhizhao" data-use_for="333">[<em>上传营业执照</em>]</p>
                 </div>

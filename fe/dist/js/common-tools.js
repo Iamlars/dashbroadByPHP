@@ -41,12 +41,12 @@ function sendAjax(form,options){
 // 图片上传
 function upload(fileDom,url,callback){
   if(!WebUploader){return}
-
+  var formData = $(fileDom).data();
   var uploader = WebUploader.create({
       auto: true,
       swf: 'http://cdn.staticfile.org/webuploader/0.1.0/Uploader.swf',
       server: url,
-      fileVal: '111',
+      formData: formData || {},
       pick: {
         id: fileDom,
         multiple: false
